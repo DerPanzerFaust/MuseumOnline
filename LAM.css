@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.container {
+    width: 720px;
+    margin: 0 auto;
+    min-height: 960px;
+    background-image: url('Fotos/LAM\ achtergrond.jpg');
+    color: white;
+}
+.Titel {
+    background-color: #ffffffad;
+    color: burlywood;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    margin-left: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+p {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
