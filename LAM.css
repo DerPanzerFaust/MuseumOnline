@@ -3,29 +3,75 @@ body {
     padding: 0;
     background-color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+    font-size: 30px;
+    background-image: url("Fotos/red\ tile.png");
 }
 .container {
-    width: 720px;
-    margin: 0 auto;
-    min-height: 960px;
-    background-image: url('Fotos/LAM\ achtergrond.jpg');
-    color: white;
-}
-.Titel {
-    background-color: #ffffffad;
+    width: 1903px;
+    margin-bottom: 50;
+    min-height: 0px;
+    color: white;    
+    background-color: #ffffffa8;
     color: burlywood;
 }
-h1 {
+#LAM {
     margin: 0;
     padding: 0;
-    font-size: 50px;
+    font-size: 100px;
     margin-left: 20px;
     text-shadow: 2px 2px 4px #000000;
 }
-p {
+#Welkom {
     margin: 0;
     padding: 0;
     margin-left: 20px;
     text-shadow: 2px 2px 4px #000000;
+}
+.Navigation {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffffffa8;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: burlywood;
+}
+th, td {
+    padding-inline: 90px;
+  }
+.Quiz {
+    background-color: #ffffffa8;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#Quiz {
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+.Info {
+    background-color: #ffffffa8;
+    margin-left: 300px;
+    margin-right: 950px;
+}
+#LAMINFOT {
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: burlywood;
+    text-shadow: 2px 2px 4px #000000;
+}
+#LAMINFO {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: burlywood;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: smaller;
+    padding-right: 15px;
 }
