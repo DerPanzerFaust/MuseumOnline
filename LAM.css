@@ -27,7 +27,7 @@ body {
     margin-left: 20px;
     text-shadow: 2px 2px 4px #000000;
 }
-.Navigation {
+.navigatie {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #ffffffa8;
@@ -54,24 +54,27 @@ th, td {
 }
 .Info {
     background-color: #ffffffa8;
+    float: left;
+    width: 650px;
     margin-left: 300px;
-    margin-right: 950px;
 }
 #LAMINFOT {
     padding-left: 15px;
     padding-top: 5px;
     margin-bottom: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: burlywood;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1px 1px 2px #000000;
 }
 #LAMINFO {
     padding-left: 15px;
     padding-bottom: 15px;
     margin-top: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: burlywood;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1px 1px 2px #000000;
     font-size: smaller;
     padding-right: 15px;
+}
+.Film {
+    float: right;
+    margin-right: 300px;
 }
