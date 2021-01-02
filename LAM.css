@@ -4,15 +4,15 @@ body {
     background-color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
-    background-image: url("Fotos/red\ tile.png");
+    background-image: url("Fotos/website\ ahctergrond.jpg");
 }
 .container {
     width: 1903px;
     margin-bottom: 50;
     min-height: 0px;
     color: white;    
-    background-color: #ffffffa8;
-    color: burlywood;
+    background-color: #ffffffee;
+    color: black;
 }
 #LAM {
     margin: 0;
@@ -30,7 +30,7 @@ body {
 .navigatie {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #ffffffa8;
+    background-color: #ffffffee;
     margin-top: 50px;
     margin-left: 300px;
     margin-right: 300px;
@@ -42,7 +42,7 @@ th, td {
     padding-inline: 90px;
   }
 .Quiz {
-    background-color: #ffffffa8;
+    background-color: #ffffffee;
     margin-top: 50px;
     margin-left: 300px;
     margin-right: 300px;
@@ -53,7 +53,7 @@ th, td {
     padding-bottom: 400px;
 }
 .Info {
-    background-color: #ffffffa8;
+    background-color: #ffffffee;
     float: left;
     width: 650px;
     margin-left: 300px;
@@ -77,4 +77,13 @@ th, td {
 .Film {
     float: right;
     margin-right: 300px;
+}
+.Review {
+    background-color: #ffffffee;
+    margin-top: 700px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 5px;
+    padding-left: 15px;
+    text-shadow: 1px 1px 2px #000000;
 }
