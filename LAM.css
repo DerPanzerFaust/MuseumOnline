@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -40,7 +43,7 @@ body {
     color: burlywood;
 }
 th, td {
-    padding-inline: 90px;
+    padding-inline: 135px;
   }
 .Quiz {
     background-color: #ffffffee;
