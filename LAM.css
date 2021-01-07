@@ -5,9 +5,10 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
     background-image: url("Fotos/website\ ahctergrond.jpg");
+    width: auto;
 }
 .container {
-    width: auto;
+    width: 1903px;
     margin-bottom: 50;
     min-height: 0px;
     color: white;    
@@ -79,11 +80,42 @@ th, td {
     margin-right: 300px;
 }
 .Review {
-    background-color: #ffffffee;
     margin-top: 700px;
+    background-color: #ffffffee;
+    color: #000000;
     margin-left: 300px;
     margin-right: 300px;
-    padding-top: 5px;
-    padding-left: 15px;
-    text-shadow: 1px 1px 2px #000000;
+    padding: 15px;
+    height: 220px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.line {
+    text-align: center;
+}
+.line2 {
+    text-align: center;
+    padding-top: 20px;
+}
+.line3 {
+    text-align: center;
+    padding-top: 25px;
+}
+.line:first-child {
+    animation: anim 12s infinite;
+}
+@keyframes anim {
+    0%{
+        margin-top: 0;
+    }
+    40%{
+        margin-top: -250px;
+        
+    }
+    80%{
+        margin-top: -490px;
+    }
+    100%{
+        margin-top: 0;
+    }
 }
