@@ -17,6 +17,7 @@ body {
     color: white;    
     background-color: #ffffffee;
     color: black;
+    border: solid rgb(185, 184, 184);
 }
 #LAM {
     margin: 0;
@@ -41,6 +42,7 @@ body {
     font-size: 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: burlywood;
+    border: solid rgb(185, 184, 184);
 }
 th, td {
     padding-inline: 135px;
@@ -50,6 +52,7 @@ th, td {
     margin-top: 50px;
     margin-left: 300px;
     margin-right: 300px;
+    border: solid rgb(185, 184, 184);
 }
 #Quiz {
     text-align: center;
@@ -61,6 +64,7 @@ th, td {
     float: left;
     width: 650px;
     margin-left: 300px;
+    border: solid rgb(185, 184, 184);
 }
 #LAMINFOT {
     padding-left: 15px;
@@ -81,6 +85,7 @@ th, td {
 .Film {
     float: right;
     margin-right: 300px;
+    border: solid rgb(185, 184, 184);
 }
 .Review {
     margin-top: 700px;
@@ -92,6 +97,7 @@ th, td {
     height: 220px;
     overflow: hidden;
     margin-bottom: 15px;
+    border: solid rgb(185, 184, 184);
 }
 .line {
     text-align: center;
