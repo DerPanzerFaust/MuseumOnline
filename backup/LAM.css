@@ -11,7 +11,7 @@ body {
     width: auto;
 }
 .Titel {
-    width: auto;
+    width: 1903px;
     margin-bottom: 50;
     min-height: 0px;
     color: white;    
@@ -26,14 +26,12 @@ body {
     font-size: 100px;
     margin-left: 20px;
     text-shadow: 2px 2px 4px #000000;
-    padding-left: 290px;
 }
 #Welkom {
     margin: 0;
     padding: 0;
     margin-left: 20px;
     text-shadow: 2px 2px 4px #000000;
-    padding-left: 290px;
 }
 .navigatie {
     padding-top: 10px;
@@ -67,19 +65,18 @@ th, td {
 .Info {
     background-color: #ffffffee;
     float: left;
-    width: 570px;
+    width: 650px;
     margin-left: 300px;
     border: solid rgb(185, 184, 184);
     margin-top: 50px;
     box-shadow:20px 20px 50px black; 
 }
 #LAMINFOT {
-    padding-left: 13px;
+    padding-left: 15px;
     padding-top: 5px;
     margin-bottom: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-shadow: 1px 1px 1px #000000;
-    margin-top: 10px;
 }
 #LAMINFO {
     padding-left: 15px;
@@ -95,8 +92,7 @@ th, td {
     margin-right: 300px;
     border: solid rgb(185, 184, 184);
     margin-top: 50px;
-    box-shadow:20px 20px 50px black;
-    height: 595px; 
+    box-shadow:20px 20px 50px black; 
 }
 .Review {
     margin-top: 700px;
@@ -117,6 +113,37 @@ th, td {
     text-shadow: 1px 1px 1px #000000;
     padding-bottom: 20px;
 }
+.line2 {
+    text-align: left;
+    padding-top: 35px;
+    text-shadow: 1px 1px 1px #000000;
+    padding-bottom: 20px;
+}
+.line3 {
+    text-align: left;
+    padding-top: 25px;
+    text-shadow: 1px 1px 1px #000000;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.line:first-child {
+    animation: anim 12s infinite;
+}
+@keyframes anim {
+    0%{
+        margin-top: 0;
+    }
+    40%{
+        margin-top: -270px;
+        
+    }
+    80%{
+        margin-top: -525px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
 .Contact {
     background-color: #ffffffee;
     text-shadow: 1px 1px 1px #000000;
@@ -128,12 +155,10 @@ th, td {
 #Contact {
     font-size: large; 
     float: left;
-    padding-top: 15px;
 }
 #Volg {
     float: left;
     inline-size: 150px;
-    margin-left: 450px;
 }
 #Volg1 {
     float: left;
