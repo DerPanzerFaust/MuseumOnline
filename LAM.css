@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    background-image: url("Fotos/website\ ahctergrond.jpg");
+    width: auto;
+}
+.Titel {
+    width: auto;
+    margin-bottom: 50;
+    min-height: 0px;
+    color: white;    
+    background-color: #ffffffee;
+    color: black;
+    border: solid rgb(185, 184, 184);
+    box-shadow:20px 20px 50px black; 
+}
+#LAM {
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    margin-left: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    padding-left: 290px;
+}
+#Welkom {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    padding-left: 290px;
+}
+.navigatie {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffffffee;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: burlywood;
+    border: solid rgb(185, 184, 184);
+    box-shadow:20px 20px 50px black; 
+}
+th, td {
+    padding-inline: 140px;
+  }
+.Quiz {
+    background-color: #ffffffee;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: solid rgb(185, 184, 184);
+    box-shadow:20px 20px 50px black;
+    text-shadow: 1px 1px 1px #000000; 
+}
+#Quiz {
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+.Info {
+    background-color: #ffffffee;
+    float: left;
+    width: 570px;
+    margin-left: 300px;
+    border: solid rgb(185, 184, 184);
+    margin-top: 50px;
+    box-shadow:20px 20px 50px black; 
+}
+#LAMINFOT {
+    padding-left: 13px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 1px 1px #000000;
+    margin-top: 10px;
+}
+#LAMINFO {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: smaller;
+    padding-right: 15px;
+}
+.Film {
+    float: right;
+    margin-right: 300px;
+    border: solid rgb(185, 184, 184);
+    margin-top: 50px;
+    box-shadow:20px 20px 50px black;
+    height: 595px; 
+}
+.Review {
+    margin-top: 700px;
+    background-color: #ffffffee;
+    color: #000000;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 15px;
+    height: 220px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border: solid rgb(185, 184, 184);
+    box-shadow:20px 20px 50px black; 
+    margin-bottom: 50px;
+}
+.line {
+    text-align: left;
+    text-shadow: 1px 1px 1px #000000;
+    padding-bottom: 20px;
+}
+.Contact {
+    background-color: #ffffffee;
+    text-shadow: 1px 1px 1px #000000;
+    box-shadow:20px 20px 50px black;
+    border: solid rgb(185, 184, 184);
+    padding-left: 15px;
+    overflow: hidden;
+}
+#Contact {
+    font-size: large; 
+    float: left;
+    padding-top: 15px;
+}
+#Volg {
+    float: left;
+    inline-size: 150px;
+    margin-left: 450px;
+}
+#Volg1 {
+    float: left;
+    inline-size: 150px;
+}
+#Volg2 {
+    float: left;
+    inline-size: 150px;
+}
