@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="LAM.css">
 </head>
 <body>
-    <div class="container">
+    <div class="Titel">
                 <h1 id="LAM">LAM</h1>
                 <p id="Welkom">Welkom in het LAM</p>
     </div>
@@ -16,29 +16,117 @@
                 <table>
                   <tr>
                     <th><a href="#quiz">Quiz</a></th>
-                    <th><a href="#info">Informatie</a></th>
-                    <th><a href="#reviews">Reviews</a></th>
-                    <th><a href="#contact">Contact</a></th>
+                    <th><a href="#info">Info</a></th>
+                    <th><a href="#reviews">Contact</a></th>
                   </tr>
                  </table>
             </nav>
     </div>
-    <div class="Quiz">
-        <header>
-            <h1 id="Quiz">QUIZ</h1>
-        </header>
-    </div>
-    <div class="Info">
-            <h1 id="LAMINFOT">Info</h1>
-            <p id="LAMINFO">LAM is een museum op Landgoed Keukenhof, op steenworp afstand van Kasteel Keukenhof in de Zuid-Hollandse plaats Lisse. In het museum hebben alle kunstwerken iets te maken met voedsel en consumptie. De collectie van het LAM is gecentreerd rond de rol van voedsel en natuur in het menselijk leven en de weerslag daarvan in de kunst. De collectie bevat onder meer werken van de kunstenaars Renzo Martens (hoofd van chocola), Yinka Shonibare (The Last Supper), Ron Mueck (staande vrouw met boodschappentassen), Pieter Janssens Elinga (stilleven met perziken en sinaasappels), Uta Eisenreich (gefotografeerde rookworsten), Stefan Gross (grote vierkante sla) en Itamar Gilboa, die in porselein vastlegde wat hij gedurende een jaar at en dronk.</p>
-        </div>
+    <section id="quiz">
+		<div class="Quiz">
+			<form  id="form">
+
+				<!-- Elk antwoord heeft een eigen value, op basis van die values krijg je het antwoord -->
+				<p>Kies een</p>
+				<label><input type="radio" name="color" value="2" />Zwart</label>
+				<label><input type="radio" name="color" value="2" />Roze</label>
+				<label><input type="radio" name="color" value="3" />Wit</label>
+				<label><input type="radio" name="color" value="4" />Groen</label>
+
+				<p>kies een</p>
+				<label><input type="radio" name="style" value="2" />Realistisch</label>
+				<label><input type="radio" name="style" value="1" />Abstract</label>
+				<label><input type="radio" name="style" value="4" />Er tussen in</label>
+				<label><input type="radio" name="style" value="3" />Geen van allen</label>
+
+				<p>kies een</p>
+				<label><input type="radio" name="country" value="4" />Japan</label>
+				<label><input type="radio" name="country" value="3" />Amerika</label>
+				<label><input type="radio" name="country" value="2" />China</label>
+				<label><input type="radio" name="country" value="1" />Israël</label>
+
+				<p>kies een</p>
+				<label><input type="radio" name="taste" value="2" />Bitter</label>
+				<label><input type="radio" name="taste" value="3" />Zuur</label>
+				<label><input type="radio"  name="taste" value="4" />Pittig</label>
+				<label><input type="radio" name="taste" value="1" />Flauw</label>
+
+				<p>kies een</p>
+				<label><input type="radio" name="season" value="3" />Zomer</label>
+				<label><input type="radio" name="season" value="4" />Lente</label>
+				<label><input type="radio" name="season" value="2" />Herfst</label>
+				<label><input type="radio" name="season" value="1" />Winter</label>
+
+
+				<button type="submit" value="Submit">Submit</button>
+
+			</form>
+			<br><br>
+			<p id="answer"></p>
+			<br>
+		</div>
+	</section>
+		<section id="info">
+			<div class="Info">
+				<h1 id="LAMINFOT">Info</h1>
+				<p id="LAMINFO">LAM is een museum op Landgoed Keukenhof, op steenworp afstand van Kasteel Keukenhof in de Zuid-Hollandse plaats Lisse. In het museum hebben alle kunstwerken iets te maken met voedsel en consumptie. De collectie van het LAM is gecentreerd rond de rol van voedsel en natuur in het menselijk leven en de weerslag daarvan in de kunst. De collectie bevat onder meer werken van de kunstenaars Renzo Martens (hoofd van chocola), Yinka Shonibare (The Last Supper), Ron Mueck (staande vrouw met boodschappentassen), Pieter Janssens Elinga (stilleven met perziken en sinaasappels), Uta Eisenreich (gefotografeerde rookworsten), Stefan Gross (grote vierkante sla) en Itamar Gilboa, die in porselein vastlegde wat hij gedurende een jaar at en dronk.</p>
+			</div>
+		</section>
     <div class="Film">
-        <iframe width="560" height="615" src="https://www.youtube.com/embed/pSuMmmtBvK0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="650" height="595" src="https://www.youtube.com/embed/pSuMmmtBvK0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <div class="Review">
-        <div class="line">Marijke Doppenberg<br><br>Food art wordt op een mooie, en soms ook ludieke manier weergegeven, voor alle leeftijden! De ápp verstrekt aanvullende informatie. Het Lam is in een prachtig park gelegen bij Kasteel Keukenhof. Zeker de moeite waard over een paar maanden nog een keer te gaan, om te zien welke andere kunstwerken er dan hangen.</div>
-        <div class="line2">Eric Blom<br><br>Echt een aanrader. Heel mooi nieuw museum. Straalt rust uit. Met een bijzondere collectie rond uniek thema. Ondanks deze rode draad zijn de werken meer dan interessant. Kunstwerken zijn van hoog niveau. Zeer vriendelijke ontvangst met enthousiaste suppoosten. Museum is gelegen in prachtig en groot park. Park is gratis toegankelijk en als je je laat sponsoren museum ook. Top!</div>
-        <div class="line3">Pieter van der Geest<br><br>Wat een gaaf museum! Een aanrader. Ook met kinderen. Niet te groot, niet te klein. Mooie collectie en de tour op je eigen mobiel is een leuke extra. Op het landgoed is ook een kleine kinderboerderij met lieve vrijwilligers en een natuurontdekkingsruimte.</div>
+    <section id="reviews">
+		<div class="Review">
+			<div class="line">Marijke Doppenberg<br><br>"Food art wordt op een mooie, en soms ook ludieke manier weergegeven, voor alle leeftijden! De ápp verstrekt aanvullende informatie. Het Lam is in een prachtig park gelegen bij Kasteel Keukenhof. Zeker de moeite waard over een paar maanden nog een keer te gaan, om te zien welke andere kunstwerken er dan hangen."</div>
+		</div>
+    </section>
+	
+    <div class="Contact">
+        <h1 id="Contact">LAM<br>KEUKENHOF 14<br>2161 AN LISSE POSTBUS 224<br>2170 AE SASSENHEIM<br>info@lamlisse.nl</h1>
+        <p id="Volg"><a href="https://www.instagram.com/lamlisse/"><img src="https://i.pinimg.com/originals/69/74/b5/6974b5f9158cbe064b8e465e68e52eed.png" width="100" height="100"></a></p>
+        <p id="Volg1"><a href="https://www.facebook.com/LAMLisse/"><img src="https://www.freepnglogos.com/uploads/logo-facebook-png/logo-facebook-best-facebook-logo-icons-gif-transparent-png-images-9.png" width="95" height="95"></a></p>
+        <p id="Volg2"><a href="https://www.linkedin.com/company/lam-museum?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A3274852191468588835719%2CVSRPtargetId%3A10255621%2CVSRPcmpt%3Aprimary"><img src="https://i.pinimg.com/originals/94/39/31/94393125069eb17ba4eaf8b55133b7d8.png" width="90" height="89"></a></p>
     </div>
+	
+	
+	<script>
+	   document.getElementById("form").onsubmit=function() {
+	   
+	   
+	   // Dit is om de groepen van de keuzes te bepalen op basis van de naam; "Color, style, country, taste, season zijn aparte groepen".
+	   color = parseInt(document.querySelector('input[name = "color"]:checked').value);  
+	   
+	   style = parseInt(document.querySelector('input[name = "style"]:checked').value);  
+	   
+	   country = parseInt(document.querySelector('input[name = "country"]:checked').value);  
+	  
+	  taste = parseInt(document.querySelector('input[name = "taste"]:checked').value);
+	   
+	  season = parseInt(document.querySelector('input[name = "season"]:checked').value);
+	   
+	   // Hier tellen we het totaal op bij elkaar
+	   total= color + style + country + taste + season;
+	   
+	     
+// En hier wordt de laatste score gebruikt om een kunstwerk te kiezen. Als totaal < 9, krijg je de eerste optie. totaal > 9 < 13, de 2e optie etc.
+	   if(total < 9) {
+document.getElementById("answer").innerHTML = "A";
+}
+
+   if(total >=9 && total < 13) {
+document.getElementById("answer").innerHTML = "B";
+}
+
+   if(total >=13 && total < 16) {
+document.getElementById("answer").innerHTML = "C";
+}
+	
+	if(total >=16) {
+document.getElementById("answer").innerHTML = "D";
+}   
+	   
+	   return false; // Dit zorgt dat de pagina niet refreshed op het moment van antwoorden submitten
+	   }
+</script>
 </body>
-</html>                 
+</html>    
